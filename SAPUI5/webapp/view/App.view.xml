@@ -1,0 +1,7 @@
+<mvc:View   controllerName="ecsas.SAPUI5.controller.App"
+            xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+    <Button text="{i18n>buttonText}" press=".onMostrarSaludo"></Button>
+    <Input value="{/recipient/name}" description="Hola {/recipient/name}" width="60%"></Input>
+</mvc:View>
+
+
